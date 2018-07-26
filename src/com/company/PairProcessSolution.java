@@ -21,9 +21,10 @@ public class PairProcessSolution {
 
         if(sum<1000){
             System.out.print("~");
-        }else if(sum>200){
-            System.out.print("*");
 
+        }
+        if(sum>200){
+            System.out.print("*");
         }
     }
 }
